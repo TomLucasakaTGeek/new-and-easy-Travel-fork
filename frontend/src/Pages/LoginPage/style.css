@@ -1,0 +1,31 @@
+.box {
+    margin: auto;
+    color: grey;
+    border-radius: 5px;
+    height: 30vh;
+    width: 30vw;k
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.login{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.login:active {
+    border: 3px solid cyan;
+}
+
+#logbtn {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+#logbtn:hover {
+    background-color: rgb(15, 15, 135);
+}
+
+
